@@ -1,0 +1,9 @@
+Installation guide (for Edge/ Chrome)
+- download the tampermonkey_enhanced_x.x.zip
+- unpack
+- save on your local drive
+- go to your browser extensions (eg. edge://extensions/)
+- load unpacked data (highest folder before Contents)
+- reload geoguessr
+- enjoy :)
+
