@@ -3,12 +3,13 @@ Installation guide (for Edge/ Chrome)
 - unpack
 - save on your local drive
 - go to your browser extensions (eg. edge://extensions/)
-- load unpacked data (highest folder before Contents)
+- load unpacked data (highest folder before the contents)
 - reload geoguessr
 - enjoy :)
 
 DISCLAIMER:
 only use this script in your practice sessions 
 do not use this script to gain a competitive edge in multiplayer
+
 
 
