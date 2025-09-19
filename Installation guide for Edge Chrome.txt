@@ -7,3 +7,6 @@ Installation guide (for Edge/ Chrome)
 - reload geoguessr
 - enjoy :)
 
+DISCLAIMER:
+only use this script in your practice sessions 
+do not use this script to gain a competitive edge in multiplayer
