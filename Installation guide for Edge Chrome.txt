@@ -1,5 +1,5 @@
 Installation guide (for Edge/ Chrome)
-- download the places.zip
+- download the places_enhanced.zip
 - unpack
 - save on your local drive
 - go to your browser extensions (eg. edge://extensions/)
@@ -10,4 +10,5 @@ Installation guide (for Edge/ Chrome)
 DISCLAIMER:
 only use this script in your practice sessions 
 do not use this script to gain a competitive edge in multiplayer
+
 
