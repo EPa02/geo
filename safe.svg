@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="5"
+     stroke-linecap="round" stroke-linejoin="round">
+  <!-- Schild-Umriss -->
+  <path d="M100 20
+           C 70 20, 40 35, 40 60
+           V 95
+           C 40 140, 70 165, 100 180
+           C 130 165, 160 140, 160 95
+           V 60
+           C 160 35, 130 20, 100 20
+           Z"/>
+  <!-- Häkchen -->
+  <path d="M70 100 L90 120 L130 80"/>
+</svg>
