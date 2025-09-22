@@ -1,0 +1,13 @@
+{
+  "name": "Sarawak",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/epole_1.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/bollard_1.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/roadmarker_1.png"
+  ],
+  "info": "distinct epoles"
+}
