@@ -12,4 +12,5 @@ only use this script in your practice sessions
 do not use this script to gain a competitive edge in multiplayer
 
 
+## images and meta information taken from www.plonkit.net and www.geoguessr.com
 
