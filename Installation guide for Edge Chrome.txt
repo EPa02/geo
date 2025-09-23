@@ -1,5 +1,5 @@
 Installation guide (for Edge/ Chrome)
-- download the latest places_enhanced.zip from the versions folder
+- download the latest places_enhanced.zip from the versions folder (https://github.com/EPa02/geo/tree/7d8681f3949c15d6976474c428ca5d3877996898/versions/places_enhanced_1.1.2/places_enhanced)
 - unpack
 - save on your local drive
 - go to your browser extensions (eg. edge://extensions/)
@@ -13,5 +13,6 @@ do not use this script to gain a competitive edge in multiplayer
 
 
 ## images and meta information taken from www.plonkit.net and www.geoguessr.com
+
 
 
