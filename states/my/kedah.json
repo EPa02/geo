@@ -1,0 +1,24 @@
+{
+  "name": "Kedah",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kedah/misc_3.png"
+  ]
+}
