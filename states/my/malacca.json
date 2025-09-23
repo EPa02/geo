@@ -1,24 +1,24 @@
 {
   "name": "Malacca",
   "epole": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/epole_1.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/epole_2.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/epole_3.png"
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malaca/epole_3.png"
   ],
   "bollard": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/bollard_1.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/bollard_2.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/bollard_3.png"
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/bollard_3.png"
   ],
   "roadmarker": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/roadmarker_1.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/roadmarker_2.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/roadmarker_3.png"
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/roadmarker_3.png"
   ],
   "info": "",
   "miscellaneous": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/misc_1.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/misc_2.png",
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/melaka/misc_3.png"
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/malacca/misc_3.png"
   ]
 }
