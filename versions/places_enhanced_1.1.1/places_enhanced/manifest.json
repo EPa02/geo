@@ -1,0 +1,50 @@
+{
+    "manifest_version": 3,
+    "name": "places enhanced",
+    "version": "1.1.1",
+    "description": "places enhanced",
+    "icons": {
+        "128": "assets/LOGO.svg"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "webRequest",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://www.geoguessr.com/"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+
+            ],
+            "matches": [
+                "https://www.geoguessr.com/*"
+            ]
+        },
+        {
+            "world": "MAIN",
+            "resources": [
+                "xhr.js"
+            ],
+            "matches": [
+                "https://www.geoguessr.com/*"
+            ]
+        }
+    ],
+    "content_scripts": [
+        {
+            "world": "MAIN",
+            "matches": [
+                "https://www.geoguessr.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "all_frames": true,
+            "run_at": "document_end"
+        }
+    ]
+}
