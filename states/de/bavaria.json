@@ -1,0 +1,24 @@
+{
+  "name": "Bavaria",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/bavaria/misc_3.png"
+  ]
+}
