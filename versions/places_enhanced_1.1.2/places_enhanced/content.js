@@ -205,7 +205,7 @@ async function tellLocation() {
   overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:9998;display:none;';
 
   const popup = document.createElement('div');
-  popup.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#7f6dab;padding:20px;border-radius:20px;box-shadow:0 0 10px rgba(0,0,0,.5);z-index:9999;display:none;color:white;text-align:left;'; 
+  popup.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#533a94;padding:20px;border-radius:20px;box-shadow:0 0 10px rgba(0,0,0,.5);z-index:9999;display:none;color:white;text-align:left;'; 
   popup.style.maxWidth = '80%';
   popup.style.maxHeight = '80%';
   popup.style.overflow = 'auto';
@@ -447,3 +447,4 @@ async function tellLocation() {
   overlay.onclick = () => { popup.style.display = overlay.style.display = 'none'; };
   popup.style.display = overlay.style.display = 'block';
 }
+
