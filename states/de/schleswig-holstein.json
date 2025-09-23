@@ -1,0 +1,24 @@
+{
+  "name": "Schleswig-Holstein",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/schleswig-holstein/misc_3.png"
+  ]
+}
