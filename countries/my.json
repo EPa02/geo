@@ -1,6 +1,11 @@
 {
-  "title": "Malaysia",
-  "text": "L",
+  "name": "Malaysia",
   "plate": "https://raw.githubusercontent.com/EPa02/geo/main/images/my_plate.png",
-  "link": "https://www.plonkit.net/malaysia"
+  "text": "L",
+  "link": "https://www.plonkit.net/malaysia",
+  "misc": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/my_misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/my_misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/my_misc_3.png"
+  ]
 }
