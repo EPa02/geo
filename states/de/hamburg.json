@@ -1,0 +1,24 @@
+{
+  "name": "Hamburg",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hamburg/misc_3.png"
+  ]
+}
