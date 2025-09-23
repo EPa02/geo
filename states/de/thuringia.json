@@ -1,0 +1,24 @@
+{
+  "name": "Thuringia",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/thuringia/misc_3.png"
+  ]
+}
