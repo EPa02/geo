@@ -1,6 +1,11 @@
 {
-  "title": "Germany",
-  "text": "R",
+  "name": "Germany",
   "plate": "https://raw.githubusercontent.com/EPa02/geo/main/images/de_plate.png",
-  "link": "https://www.plonkit.net/germany"
+  "text": "R",
+  "link": "https://www.plonkit.net/germany",
+  "misc": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/de_misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/de_misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/de_misc_3.png"
+  ]
 }
