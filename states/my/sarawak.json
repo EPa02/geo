@@ -4,11 +4,12 @@
     "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/epole_1.png",
     "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/epole_2.png"
   ],
-  "bollard": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/bollard_1.png"
-  ],
+  "bollard": [],
   "roadmarker": [
     "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/roadmarker_1.png"
   ],
-  "info": "distinct epoles"
+  "info": "distinct epoles",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/misc_1.png"
+  ]
 }
