@@ -1,0 +1,24 @@
+{
+  "name": "Labuan",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/labuan/misc_3.png"
+  ]
+}
