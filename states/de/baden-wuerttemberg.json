@@ -1,0 +1,24 @@
+{
+  "name": "Baden-Württemberg",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/baden-wuerttemberg/misc_3.png"
+  ]
+}
