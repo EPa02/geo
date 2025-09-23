@@ -1,0 +1,24 @@
+{
+  "name": "Berlin",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/berlin/misc_3.png"
+  ]
+}
