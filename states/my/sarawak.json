@@ -5,12 +5,20 @@
     "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/epole_2.png",
     "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/epole_3.png"
   ],
-  "bollard": [],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/bollard_3.png"
+  ],
   "roadmarker": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/roadmarker_1.png"
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/roadmarker_3.png"
   ],
   "info": "distinct epoles",
   "miscellaneous": [
-    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/misc_1.png"
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sarawak/misc_3.png"
   ]
 }
