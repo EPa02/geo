@@ -1,18 +1,21 @@
 Installation guide (for Edge/ Chrome)
 - download the latest places_enhanced.zip from the versions folder (https://github.com/EPa02/geo/tree/7d8681f3949c15d6976474c428ca5d3877996898/versions/places_enhanced_1.1.2/places_enhanced)
-- unpack
+- unpack if downloaded as .zip)
 - save on your local drive
 - go to your browser extensions (eg. edge://extensions/)
-- load unpacked data (highest folder before the contents)
-- reload geoguessr
+- load unpacked data (highest folder before the contents - usually just a folder called 'places enhanced')
+- refresh the geoguessr website
 - enjoy :)
 
 DISCLAIMER:
 only use this script in your practice sessions 
 do not use this script to gain a competitive edge in multiplayer
+use at you own risk (it is not an official script recognised by geoguessr)
+shoutout to https://github.com/realapire for the solution in his script on how to solve the geodata-to-location problem in geoguessr
 
 
 ## images and meta information taken from www.plonkit.net and www.geoguessr.com
+
 
 
 
