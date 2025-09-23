@@ -1,0 +1,24 @@
+{
+  "name": "Brandenburg",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/brandenburg/misc_3.png"
+  ]
+}
