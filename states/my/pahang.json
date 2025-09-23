@@ -1,0 +1,24 @@
+{
+  "name": "Pahang",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/pahang/misc_3.png"
+  ]
+}
