@@ -1,0 +1,24 @@
+{
+  "name": "Rhineland-Palatinate",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/rhineland-palatinate/misc_3.png"
+  ]
+}
