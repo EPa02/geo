@@ -17,7 +17,7 @@ async function fetchAndInjectScript(url) {
 const remoteScriptUrl = 'https://raw.githubusercontent.com/EPa02/geo/main/xhr.js';
 fetchAndInjectScript(remoteScriptUrl);
 
-// --- message handler (robust für String/Blob) ---
+// --- message handler (for String/Blob) ---
 window.addEventListener('message', async function (e) {
   try {
     const payload = e?.data?.data;
@@ -99,7 +99,7 @@ async function loadStateInfo(countryCode, stateName) {
   const url = `https://raw.githubusercontent.com/EPa02/geo/main/states/${cc}/${slug}.json`;
   try {
     const r = await fetch(url);
-    if (!r.ok) return null;      // 404 -> sauberer Fallback
+    if (!r.ok) return null;      // 404 -> clean Fallback
     return await r.json();
   } catch { return null; }
 }
@@ -157,14 +157,14 @@ window.addEventListener('load', () => {
   setInterval(ensureSafeOption, 300);
 });
 
-// Hotkey: Ctrl+Shift → Overlay (nur wenn safeMode false)
+// Hotkey: Ctrl+Shift → Overlay (if safeMode false)
 document.addEventListener('keydown', async function (event) {
   if (event.ctrlKey && event.shiftKey && localStorage.getItem('safeMode') == 'false') {
     await tellLocation();
   }
 });
 
-// ---------- Helper: nur State-Block zeigen, wenn es Inhalte gibt ----------
+// ---------- Helper: show State-Block if info available ----------
 function hasAnyStateContent(info) {
   if (!info || typeof info !== 'object') return false;
   const anySrc = src => Array.isArray(src) ? src.length > 0 : !!src;
@@ -172,12 +172,12 @@ function hasAnyStateContent(info) {
   if (anySrc(info.epole)) return true;
   if (anySrc(info.bollard)) return true;
   if (anySrc(info.roadmarker)) return true;
-  if (anySrc(info.miscellaneous) || anySrc(info.misc)) return true; // <- misc ODER miscellaneous
+  if (anySrc(info.miscellaneous) || anySrc(info.misc)) return true; // <- misc or miscellaneous
   if (info.info && String(info.info).trim() !== '') return true;
   return false;
 }
 
-// ---------- Helper: Bild-URLs prüfen & nur gültige zurückgeben ----------
+// ---------- Helper png url check on request ----------
 async function filterValidImages(srcOrList, timeoutMs = 5000) {
   const list = Array.isArray(srcOrList) ? srcOrList : (srcOrList ? [srcOrList] : []);
   const unique = [...new Set(list.filter(Boolean))]; // dedupe + remove falsy
@@ -214,7 +214,7 @@ async function tellLocation() {
 
   const coordInfo = await getCoordInfo();
 
-  // Helper: eine beschriftete Zeile (Label fett, Wert oder "-")
+  // Helper
   function line(parent, label, value) {
     const p = document.createElement('p');
     const k = document.createElement('span');
@@ -231,7 +231,7 @@ async function tellLocation() {
     p.textContent = 'No coordinates yet (waiting for network).';
     popup.appendChild(p);
   } else {
-    // Nominatim-Paare sammeln (ISO* raus)
+    // delete ISO
     const entries = Object.entries(coordInfo)
       .filter(([k, v]) =>
         v !== undefined && v !== null && String(v).trim() !== '' &&
@@ -252,8 +252,8 @@ async function tellLocation() {
       { label: 'hamlet',         keys: ['hamlet','locality'] },
       { label: 'neighbourhood',  keys: ['neighbourhood','residential','suburb'] },
       { label: 'road',           keys: ['road','pedestrian','footway','track','path'] },
-      { label: 'region',         keys: ['region'] } // optionaler Zusatz, falls geliefert
-    ];
+      { label: 'region',         keys: ['region'] } // optional
+    ]
 
     const map = new Map(entries);
     const used = new Set();
@@ -271,20 +271,18 @@ async function tellLocation() {
 
     const content = document.createElement('div');
 
-    // 1) Buckets in definierter Reihenfolge
     for (const b of buckets) {
       const matches = takeMatches(b.keys);
       if (matches.length) {
         for (const [origKey, value] of matches) {
-          line(content, origKey, value); // Original-Key anzeigen
+          line(content, origKey, value); // Original-Key
         }
       } else if (SHOW_PLACEHOLDERS && ['country','country_code','state','postcode','district','city','city_district','hamlet','neighbourhood','road'].includes(b.label)) {
-        // Platzhalter nur für die „Haupt“-Reihe (region optional)
+        // placeholder
         line(content, b.label, '-');
       }
     }
 
-    // 2) übrige Keys anhängen (optional)
     for (const [key, value] of entries) {
       if (used.has(key)) continue;
       line(content, key, value);
@@ -293,7 +291,7 @@ async function tellLocation() {
     popup.appendChild(content);
   }
 
-  // ==== Helper für beschriftete Ausgaben (Text/Bild, mehrere Bilder nebeneinander) ====
+  // ==== Helper ====
   function appendLabeledText(parent, label, value) {
     const p = document.createElement('p');
     const k = document.createElement('span');
@@ -305,21 +303,19 @@ async function tellLocation() {
     parent.appendChild(p);
   }
 
-  // Bilder mit Label: async, filtert ungültige URLs, zeigt Bilder nebeneinander
   async function appendLabeledImage(parent, label, srcOrList, altBase) {
     const valid = await filterValidImages(srcOrList);
-    if (valid.length === 0) return false; // ganze Kategorie ausblenden
+    if (valid.length === 0) return false;
 
     const wrap = document.createElement('div');
 
-    // Label-Zeile
+    // Label
     const k = document.createElement('div');
     k.style.fontWeight = '700';
     k.textContent = `${label}:`;
     k.style.marginBottom = '4px';
     wrap.appendChild(k);
 
-    // Bildleiste (nebeneinander, wrap bei Platzmangel)
     const row = document.createElement('div');
     row.style.display = 'flex';
     row.style.flexWrap = 'wrap';
@@ -332,11 +328,11 @@ async function tellLocation() {
       img.alt = `${altBase || label}${valid.length > 1 ? ' ' + (idx + 1) : ''}`;
 
       if (label === 'plate') {
-        // Country-Plate: feste Breite
+        // Country-Plate-png-size
         img.style.width = '140px';
         img.style.height = 'auto';
       } else {
-        // State-Bilder: feste Höhe (gleichhoch), Breite automatisch
+        // State-/Misc-png-size
         img.style.height = '160px';
         img.style.width = 'auto';
       }
@@ -352,7 +348,7 @@ async function tellLocation() {
     return true;
   }
 
-  // ---- Country-Infos (schwarz) ----
+  // ---- Country-Info ----
   const countryCode = coordInfo && coordInfo.country_code;
   const cInfo = await loadCountryInfo(countryCode);
   if (cInfo) {
@@ -371,6 +367,16 @@ async function tellLocation() {
     await appendLabeledImage(infoDiv, 'plate', cInfo.plate, (cInfo.title || 'Country') + ' plate');
     appendLabeledText(infoDiv, 'driving-direction', cInfo.text);
 
+    // Country-Misc
+    if (cInfo.misc || cInfo.miscellaneous) {
+      await appendLabeledImage(
+        infoDiv,
+        'miscellaneous',
+        cInfo.misc || cInfo.miscellaneous,
+        'miscellaneous'
+      );
+    }
+
     if (cInfo.link) {
       const a = document.createElement('a');
       a.href = cInfo.link;
@@ -386,7 +392,7 @@ async function tellLocation() {
     popup.appendChild(infoDiv);
   }
 
-  // ---- State-Infos (schwarz) mit Fallback & Bild-Filter ----
+  // ---- State-Info ----
   const stateName = coordInfo && (coordInfo.state || coordInfo.region || coordInfo.county);
   const sInfo = await loadStateInfo(countryCode, stateName);
 
@@ -415,8 +421,8 @@ async function tellLocation() {
     if (sInfo?.miscellaneous || sInfo?.misc) {
       renderedSomething = (await appendLabeledImage(
         stateDiv,
-        'miscellaneous',                          // Anzeige-Label
-        sInfo.miscellaneous || sInfo.misc,        // akzeptiert misc ODER miscellaneous
+        'miscellaneous',                          // Label
+        sInfo.miscellaneous || sInfo.misc,        // misc or miscellaneous
         'miscellaneous'
       )) || renderedSomething;
     }
@@ -428,7 +434,7 @@ async function tellLocation() {
     if (renderedSomething) {
       popup.appendChild(stateDiv);
     }
-    // else: keine gültigen Inhalte -> nichts anhängen (stiller Fallback)
+    // else: silent Fallback
   }
 
   document.body.appendChild(overlay);
