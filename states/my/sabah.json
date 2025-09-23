@@ -1,0 +1,24 @@
+{
+  "name": "Sabah",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/sabah/misc_3.png"
+  ]
+}
