@@ -1,0 +1,24 @@
+{
+  "name": "Mecklenburg-Vorpommern",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/mecklenburg-vorpommern/misc_3.png"
+  ]
+}
