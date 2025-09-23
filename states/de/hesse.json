@@ -1,0 +1,24 @@
+{
+  "name": "Hesse",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/de/hesse/misc_3.png"
+  ]
+}
