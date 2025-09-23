@@ -1,0 +1,24 @@
+{
+  "name": "Kuala Lumpur",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/kuala-lumpur/misc_3.png"
+  ]
+}
