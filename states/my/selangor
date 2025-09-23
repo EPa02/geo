@@ -1,0 +1,24 @@
+{
+  "name": "Selangor",
+  "epole": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/epole_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/epole_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/epole_3.png"
+  ],
+  "bollard": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/bollard_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/bollard_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/bollard_3.png"
+  ],
+  "roadmarker": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/roadmarker_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/roadmarker_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/roadmarker_3.png"
+  ],
+  "info": "",
+  "miscellaneous": [
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/misc_1.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/misc_2.png",
+    "https://raw.githubusercontent.com/EPa02/geo/main/images/states/my/selangor/misc_3.png"
+  ]
+}
