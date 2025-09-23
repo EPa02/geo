@@ -1,5 +1,5 @@
 ### GeoGuessr Chrome Extension ###
-- Location overlay
+- Location overlay with cleaner look
 - learnable meta for every state featured on geoguessr
 
 ### KEYBINDS WITH SAFE-MODE OFF ###
@@ -7,4 +7,4 @@
 - 'SAFE-MODE' Checkbox in settings menu
 
 Currently full meta added for:
-- Malaysia
+
