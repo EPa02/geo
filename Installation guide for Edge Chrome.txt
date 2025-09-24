@@ -1,6 +1,6 @@
 Installation guide (for Edge/ Chrome)
 - download the latest places_enhanced.zip from the versions folder (https://github.com/EPa02/geo/tree/7d8681f3949c15d6976474c428ca5d3877996898/versions/places_enhanced_1.1.2/places_enhanced)
-- unpack if downloaded as .zip)
+- unpack if downloaded as .zip (recommended)
 - save on your local drive
 - go to your browser extensions (eg. edge://extensions/)
 - load unpacked data (highest folder before the contents - usually just a folder called 'places enhanced')
@@ -16,6 +16,7 @@ use at you own risk (it is not an official script recognised by geoguessr)
 
 
 ## images and meta information taken from www.plonkit.net and www.geoguessr.com
+
 
 
 
